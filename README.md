@@ -126,9 +126,6 @@ This is not particularly necessary, you could just install it with "apt install 
     sudo apt install build-essential libgtk-3-dev libwebkit2gtk-4.0-dev
     sudo apt build-dep emacs 
 
-flatpak install flathub org.gnu.emacs
-flatpak install flathub org.gnu.emacs
-
     git clone https://github.com/emacs-mirror/emacs.git
     cd emacs
     ./autogen.sh
