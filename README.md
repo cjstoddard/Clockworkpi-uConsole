@@ -47,7 +47,7 @@ The problem with sddm is when you reboot it will be sideways, so follow the next
 
     sudo echo "xrandr --output DSI-1 --rotate right" >>  /usr/share/sddm/scripts/Xsetup
 
-    sudo echo "[X11\]" >> /var/lib/sddm/state.conf
+    sudo echo "[X11]" >> /var/lib/sddm/state.conf
 
     sudo echo "DisplayCommand=/usr/share/sddm/scripts/Xsetup" >> /var/lib/sddm/state.conf
 
