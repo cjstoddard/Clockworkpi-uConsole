@@ -108,7 +108,7 @@ You can go to https://flathub.org/ to see what programs are available.
 
 9. Get a screen protector
 
-LCD screens are prone to  getting scratched, so this is a necessary step to preserve you investment in this device. Fortunately the uConsole screen is pretty close to the Blackmagic Pocket Cinema 6K Camera in screen size, so almost any screen protector for it will work for a uConsole.
+LCD screens are prone to  getting scratched, so this is a necessary step to preserve you investment in this device. Fortunately the uConsole screen is pretty close to the Blackmagic Pocket Cinema 6K Camera in screen size, so almost any screen protector for it will work for a uConsole. These are not a perfect fit, but they are good enough.
 
 https://www.amazon.com/dp/B07WCQD1NZ?ref=ppx_yo2ov_dt_b_product_details&th=1 
 
