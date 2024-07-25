@@ -1,4 +1,4 @@
-# Clockworpi-uConsole
+# Clockworkpi-uConsole
 10 things to do after you get your ClockworkPi uConsole 
 
 Unless you bought your uConsole from ebay for way too much money or you bought it from a sketchy Alliexpress seller, you probably waited months to receive it. Once you have it, the question is, what now? Well, The first thing you probably did was  assemble it, I am not going to cover that, there are plenty of Youtube videos out there for that. I am going to cover the things I had to do after I assembled it to get it where I wanted it to be in terms of software and usability. Here are the 10 things you can do to improve your uConsole experience. This list does require some working knowledge of Linux and Raspberry Pi's in general.
