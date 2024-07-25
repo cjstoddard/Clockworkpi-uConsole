@@ -161,3 +161,15 @@ https://www.amazon.com/dp/B0B2KJQ7WZ?psc=1&ref=ppx_yo2ov_dt_b_product_details
 https://www.amazon.com/dp/B07TYQRXTK?psc=1&ref=ppx_yo2ov_dt_b_product_details
 
 Edit 2: I was asked what I did about the weak wifi signal. All I did was add a strip of thick double sided tape between the antenna and the chasis. This lifted it up a bit and got it off the metal, which increased the signal from about 30% to 50%.
+
+Edit 3: Okay, okay, okay, I heard you the first time.
+
+Build Neovim from source
+
+    sudo apt-get install ninja-build gettext libtool libtool-bin autoconf automake cmake g++ pkg-config unzip curl doxygen
+    sudo apt build-dep neovim
+    git clone https://github.com/neovim/neovim.git
+    cd neovim
+    make -j4 CMAKE_BUILD_TYPE=RelWithDebInfo
+    sudo make install
+SHEESH!
