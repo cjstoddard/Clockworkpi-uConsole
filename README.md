@@ -168,6 +168,8 @@ Edit 2a: If the tape does not work for you, then you will probably need to get a
 
 https://www.amazon.com/gp/product/B08T63H83S/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1
 
+Original stll file source: https://www.printables.com/model/646000
+
 Edit 3: Okay, okay, okay, I heard you the first time.
 
 Build Neovim from source
