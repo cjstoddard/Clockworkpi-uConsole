@@ -162,7 +162,7 @@ https://www.amazon.com/dp/B07TYQRXTK?psc=1&ref=ppx_yo2ov_dt_b_product_details
 
 Edit 2: I was asked what I did about the weak wifi signal. All I did was add a strip of thick double sided tape between the antenna and the chasis. This lifted it up a bit and got it off the metal, which increased the signal from about 30% to 50%.
 
-Edit 2a: If the tape does not work for you, then you will probably need to get an external antenna. There are several ways to mount it.  The least destructive is to #D print a replacement for the left side pllate with a hole for the antenna. Below is the antenna I purchased, I have also uploaded the stl file so you can print it yourself.
+Edit 2a: If the tape does not work for you, then you will probably need to get an external antenna. There are several ways to mount it.  The least destructive is to 3D print a replacement for the left side pllate with a hole for the antenna. Below is the antenna I purchased, I have also uploaded the stl file so you can print it yourself.
 
 https://www.amazon.com/gp/product/B08T63H83S/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1
 
