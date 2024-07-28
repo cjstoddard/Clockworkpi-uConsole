@@ -30,9 +30,9 @@ Having an up to date system is paramount for any system, run these commands on a
 
 The first set of programs are text mode programs that I find useful, the second set are GUI programs I use. Adjust according to taste.
 
-    sudo apt install sudo mc links cmus htop neofetch tmux ffmpeg net-tools build-essential lame zsh mailutils git ufw default-jre tty-clock calcurse git wget curl flex bison bc libavcodec-extra -y
+    sudo apt install sudo mc links cmus htop neofetch tmux ffmpeg net-tools build-essential lame zsh mailutils git default-jre tty-clock calcurse git wget curl flex bison bc libavcodec-extra -y
 
-    sudo apt install synaptic tilix audacious flameshot thunderbird filezilla transmission remmina gdebi thonny mozo vlc zim code -y
+    sudo apt install synaptic tilix audacious flameshot thunderbird filezilla transmission remmina gdebi thonny vlc zim code -y
 
 4. Change Desktop Environment (DE)
 
