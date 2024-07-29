@@ -1,6 +1,6 @@
 # 10 things to do after you get your ClockworkPi uConsole
 
-Unless you bought your uConsole from ebay for way too much money or you bought it from a sketchy Alliexpress seller, you probably waited months to receive it. Once you have it, the question is, what now? Well, The first thing you probably did was  assemble it, I am not going to cover that, there are plenty of Youtube videos out there for that. I am going to cover the things I had to do after I assembled it to get it where I wanted it to be in terms of software and usability. Here are the 10 things you can do to improve your uConsole experience. This list does require some working knowledge of Linux and Raspberry Pi's in general.
+Unless you bought your uConsole from ebay for way too much money or you bought it from a sketchy Alliexpress seller, you probably waited months to receive it. Once you have it, the question is, what now? Well, The first thing you probably did was assemble it, I am not going to cover that, there are plenty of Youtube videos out there for that. I am going to cover the things I had to do after I assembled it to get it where I wanted it to be in terms of software and usability. Here are the 10 things you can do to improve your uConsole experience. This list does require some working knowledge of Linux and Raspberry Pi's in general.
 
 As a side note, I have provided Amazon links to the products I purchased for my uConsole. These products are not the "Best in Class" or anything like that. They are simply what I bought and they seem to work for my purposes.
 
@@ -56,7 +56,7 @@ Once you have logged into your new DE, you will likely have to go to the display
 
 5. Safely Overclock your uConsole
 
-The Raspberry Pi Compute Module CPU speed is 1.5 Ghz, and the GPU speed is 500 Mhz.  Most people find this barely usable. You can kick this up by overclocking your CPU and GPU. I have done this many times and I have never had a problem with these settings. While this speed is still not great, you will find the system much more usable. Run the following command;
+The Raspberry Pi Compute Module CPU speed is 1.5 Ghz, and the GPU speed is 500 Mhz. Most people find this barely usable. You can kick this up by overclocking your CPU and GPU. I have done this many times with various Raspberry Pi 4's and I have never had a problem with these settings. While this speed is still not great, you will find the system much more usable. Run the following command;
 
     sudo nano /boot/firmware/config.txt
 
@@ -75,8 +75,9 @@ To make sure your CPU is running at 2 Ghz. You can try to set the CPU speed high
 
 6. Setup Firewall
 
-If you are going to be using your uConsole in public places, you will want to take some steps to secure it from bad actors. If you have not installed ufw yet, do so now with "apt install ufw".  Before you enable the firewall, you will want to allow ssh connections through your firewall so you can connect to it remotely.
+If you are going to be using your uConsole in public places, you will want to take some steps to secure it from bad actors. Before you enable the firewall, you will want to allow ssh connections through your firewall so you can connect to it remotely.
 
+    apt install ufw
     sudo ufw allow ssh
     sudo ufw enable
 
@@ -98,8 +99,9 @@ Search for the line "#PasswordAuthentication yes", delete the # and change yes t
 
 8. Install Flatpak
 
-Raspberry Pi OS has the same issue as Debian, the packages tend to fall behind long before a new release is made.  If you have programs that you want to stay up to date on, Flatpak is the way to do it. If you have not installed Flatpak, please do so now with "sudo apt install flatpak". Then to enable the repo run the following command;
+Raspberry Pi OS has the same issue as Debian, the packages tend to fall behind long before a new release is made.  If you have programs that you want to stay up to date on, Flatpak is the way to do it.
 
+    sudo apt install flatpak
     flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
 Now you can install programs from the Flatpak repo, which will be more up to date without breaking your install. For instance, if you want to install Discord, run the following;
