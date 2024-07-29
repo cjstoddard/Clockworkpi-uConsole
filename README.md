@@ -6,7 +6,7 @@ As a side note, I have provided Amazon links to the products I purchased for my 
 
 1. Get the Community OS image
 
-The first thing t do is either boot to the SD card sent with the uConsole, if you did not get an SD card, get a 32GB SD card and download the stock image.
+The first thing to do is to boot to the SD card sent with the uConsole, if you did not get an SD card, get a 32GB SD card and download the stock image.
 
 https://github.com/clockworkpi/uConsole/tree/master#uconsole-os-images
 
