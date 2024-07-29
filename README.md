@@ -136,47 +136,13 @@ This is not particularly necessary, you could just install it with "apt install 
     make -j4
     sudo make install
 
-Doing it this way means you cannot update Emacs using apt or flatpak and you will need to do it manually. I would make shell script out of this and run it once a month or whatever.
-
-    cd emacs
-    git pull
-    cd build
-    make -j4
-    sudo make install
-
-If you want to take it a step further, install DoomEmacs, which is a popular customization framework for Emacs. If you have already run Emacs, delete the .emacs file along with the .emacs.d and .config/emacs directories, then run the following commands;
-
-     git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
-
-    ~/.config/emacs/bin/doom install
-
-For more information on DoomEmacs, goto the github site.
-
-https://github.com/doomemacs/doomemacs
-
-If when you start it for the first time, the dashboard icons are broken, press Alt-x and type in nerd-icons-install-fonts, then hit Enter and let it do its work. Once done, restart Emacs and the problem should be fixed. If you tried this out and don't like it, simply shut down Emacs, delete the .emacs file along with the .emacs.d and .config/emacs directories and then run Emacs again and it will be back to its defaults.
-
-Edit: When I started writing this, I kind of assumed anyone reading this already had everything they needed to get the uConsole up and running, but some of you asked what batteries and power supply you should buy, here is  what I got.
-
-https://www.amazon.com/dp/B0B2KJQ7WZ?psc=1&ref=ppx_yo2ov_dt_b_product_details
-
-https://www.amazon.com/dp/B07TYQRXTK?psc=1&ref=ppx_yo2ov_dt_b_product_details
-
-Edit 2: I was asked what I did about the weak wifi signal. All I did was add a strip of thick double sided tape between the antenna and the chasis. This lifted it up a bit and got it off the metal, which increased the signal from about 30% to 50%.
-
-Edit 2a: If the tape does not work for you, then you will probably need to get an external antenna. There are several ways to mount it.  The least destructive is to 3D print a replacement for the left side plate with a hole for the antenna. Below is the antenna I purchased, I have uploaded the stl file for the left side plate so you can print it yourself. The stl actually prints two, it never hurts to have a spare or you can send it to a friend who does not have a 3D printer. I have also uploaded stl files of other non destructive antenna mounts, one of them uses the stock antenna so you do not have to buy an external. I did nt create any of these stl's, I found all of them on Printable and Thingaverse. You can fine more by searching uConsole on either site.
-
-https://www.amazon.com/gp/product/B08T63H83S/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1
-
-
-Edit 3: Okay, okay, okay, I heard you the first time.
-
-Build Neovim from source
+Altrnatively, if you prefer Neovim, here is how to build it from source.
 
     sudo apt-get install ninja-build gettext libtool libtool-bin autoconf automake cmake g++ pkg-config unzip curl doxygen
     sudo apt build-dep neovim
+    
     git clone https://github.com/neovim/neovim.git
     cd neovim
     make -j4 CMAKE_BUILD_TYPE=RelWithDebInfo
     sudo make install
-SHEESH!
+
