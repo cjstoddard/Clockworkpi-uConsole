@@ -62,7 +62,7 @@ add these lines to the bottom of the file, save and reboot.
     over_voltage=6
     arm_freq=2000
     gpu_freq=750
-    gpu-mem=256
+    gpu_mem=256
 
 After your reboot run;
 
