@@ -14,7 +14,7 @@ Look for this line, if it is not there, add it to the end of the file.
 
     dtparam=ant2
 
-I you have done this or it was already done with no improvement, the next step is to add a strip of thick double sided tape between the antenna and the chasis. This lifts it up a bit and gets it off the metal, for me this increased the signal from about 30% to 50%.
+If you have done this or it was already done with no improvement, the next step is to add a strip of thick double sided tape between the antenna and the chasis. This lifts it up a bit and gets it off the metal, for me this increased the signal from about 30% to 50%.
 
 If the tape does not work for you, then you will probably need to get an external antenna. There are several ways to mount it. The least destructive is to 3D print a replacement for the left side plate with a hole for the antenna. Below is the antenna I purchased, I have uploaded the stl file for the left side plate so you can print it yourself. The stl actually prints two, it never hurts to have a spare or you can send it to a friend who does not have a 3D printer. I have also uploaded stl files of other non destructive antenna mounts, one of them uses the stock antenna so you do not have to buy an external. I did not create any of these stl's, I found all of them on Printable and Thingaverse. You can find more by searching uConsole on either site.
 
