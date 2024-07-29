@@ -136,11 +136,11 @@ This is not particularly necessary, you could just install it with "apt install 
     make -j4
     sudo make install
 
-Altrnatively, if you prefer Neovim, here is how to build it from source.
+Alternatively, if you prefer Neovim, here is how to build it from source.
 
     sudo apt-get install ninja-build gettext libtool libtool-bin autoconf automake cmake g++ pkg-config unzip curl doxygen
     sudo apt build-dep neovim
-    
+
     git clone https://github.com/neovim/neovim.git
     cd neovim
     make -j4 CMAKE_BUILD_TYPE=RelWithDebInfo
