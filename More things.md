@@ -15,3 +15,7 @@ The small screen can be hard to read, especially for older people. In the GUI th
     sudo dpkg-reconfigure console-setup
 
 Select your preferred encoding and character set, selecting Terminus as the font, then picking 16x32(the largest size). Of course if you are comfortable with a smaller font you can pick something else, but I find 16x32 is easier to read.
+
+3. 3D print a front cover
+
+For a little extra protection when carrying your uConsole around 3D print a cover for it. The stl is in the stl folder.
