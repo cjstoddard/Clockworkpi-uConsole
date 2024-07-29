@@ -23,7 +23,6 @@ This image is based on a much newer version of the Raspberry Pi image along with
 Having an up to date system is paramount for any system, run these commands on a regular basis.
 
     sudo apt update
-
     sudo apt upgrade
 
 3. Install useful programs
@@ -47,9 +46,7 @@ If you do this, the default Display Manager does not let you change your DE, for
 The problem with sddm is when you reboot it will be sideways, so follow the next set of instructions to correct the screen orientation for sddm before you reboot.
 
     sudo echo "xrandr --output DSI-1 --rotate right" >>  /usr/share/sddm/scripts/Xsetup
-
     sudo echo "[X11]" >> /var/lib/sddm/state.conf
-
     sudo echo "DisplayCommand=/usr/share/sddm/scripts/Xsetup" >> /var/lib/sddm/state.conf
 
 Once you have logged into your new DE, you will likely have to go to the display settings and rotate the display.
