@@ -14,7 +14,7 @@ Look for this line, if it is not there, add it to the end of the file.
 
     dtparam=ant2
 
-Oddlly enough, if youo find this setting is already there, try removing it. Some folks have reported that they get better reception withought this settings, me included. I personally found my recption improved by about 15% without the setting. 
+Oddlly enough, if you find this setting is already there, try removing it. Some folks have reported that they get better reception without this settings, me included. I personally found my recption improved by about 15% without the setting. 
 
 If you have done this or it was already done with no improvement, the next step is to add a strip of thick double sided tape between the antenna and the chasis. This lifts it up a bit and gets it off the metal, for me this increased the signal from about 45% to 65%.
 
