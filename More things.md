@@ -33,3 +33,8 @@ The small screen can be hard to read, especially for older people. In the GUI th
     sudo dpkg-reconfigure console-setup
 
 Select your preferred encoding and character set, selecting Terminus as the font, then picking 16x32(the largest size). Of course if you are comfortable with a smaller font you can pick something else, but I find 16x32 is easier to read.
+
+4. Checkout other uConsole advise articles
+
+https://gist.github.com/selfawaresoup/b296f3b82167484a96e4502e74ed3602
+
