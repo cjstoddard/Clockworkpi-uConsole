@@ -18,7 +18,7 @@ Oddlly enough, if you find this setting is already there, try removing it. Some 
 
 If you have done this or it was already done with no improvement, the next step is to add a strip of thick double sided tape between the antenna and the chasis. This lifts it up a bit and gets it off the metal, for me this increased the signal from about 45% to 65%.
 
-If the tape does not work for you, then you will probably need to get an external antenna. There are several ways to mount it. All of these methods are fiddly and most depend  on you having access to a 3D printer. 
+If the tape does not work for you, then you will probably need to get an external antenna. There are several ways to mount it. All of these methods are fiddly and most depend on you having access to a 3D printer. 
 
  I have uploaded the stl files various mounting methods, I did not create any of these stl's, I found all of them on Printable and Thingaverse. You can find more by searching uConsole on either site.
 

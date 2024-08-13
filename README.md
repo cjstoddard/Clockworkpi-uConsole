@@ -41,7 +41,7 @@ I am not a big fan of Wayfire or Wayland. If you want to change your DE to somet
 
     sudo tasksel
 
-If you do this, the default Display Manager does not let you change your DE, for that you will need to install sddm.
+If you do this, if the default Display Manager does not let you change your DE, for that you will need to install sddm.
 
     sudo apt install sddm
 
