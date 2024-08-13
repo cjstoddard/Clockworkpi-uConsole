@@ -36,7 +36,7 @@ Select your preferred encoding and character set, selecting Terminus as the font
 
 4. Hitchhikers Guide to the Galaxy
 
-Kiwix is on offline browser that lets you store and access all sorts of information locally so you still access it if you do not have a working internet connection.
+Kiwix is on offline browser that lets you store and access all sorts of information locally so you can still access it if you do not have a working internet connection.
 
     sudo apt install kiwix wget
 
