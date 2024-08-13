@@ -34,7 +34,33 @@ The small screen can be hard to read, especially for older people. In the GUI th
 
 Select your preferred encoding and character set, selecting Terminus as the font, then picking 16x32(the largest size). Of course if you are comfortable with a smaller font you can pick something else, but I find 16x32 is easier to read.
 
-4. Checkout other uConsole advise articles
+4. Hitchhikers Guide to the Galaxy
+
+Kiwix is on offline browser that lets you store and access all sorts of information locally so you still access it if you do not have a working internet connection.
+
+    sudo apt install kiwix wget
+
+Start up kiwix, it will be empty, we are just getting the config files in place, go a head and close the program. The next thing we want to do is download some useful zim files. First however, we want to make it easier to download them by making a link in your home directory pointing to the kiwix data directory.
+
+    ln -s .local/share/kiwix kiwix
+    cd kiwix
+
+Now we can populate kiwix, you can go check out what they have availble at https://library.kiwix.org/#lang=eng and the direct download site is https://download.kiwix.org/zim. Here are the zim files I downloaded. Please be mindful of the space you have availble on your SD card, many of these files are multi GB in size. The Project Gutenberg zim is 72 GB, which is double all the others combined and will take a good long time to download. If you only have a 32GB SD card, you are not going to be able to download all of them, and even a 128 GB SD card will seem cramped.
+
+    wget https://download.kiwix.org/zim/zimit/based.cooking_en_all_2024-07.zim
+    wget https://download.kiwix.org/zim/zimit/fas-military-medicine_en_2024-06.zim
+    wget https://download.kiwix.org/zim/other/openstreetmap-wiki_en_all_maxi_2023-05.zim
+    wget https://download.kiwix.org/zim/wikibooks/wikibooks_en_all_maxi_2021-02.zim
+    wget https://download.kiwix.org/zim/wikipedia/wikipedia_en_simple_all_maxi_2024-06.zim
+    wget https://download.kiwix.org/zim/wikisource/wikisource_en_all_maxi_2022-09.zim
+    wget https://download.kiwix.org/zim/wikivoyage/wikivoyage_en_all_maxi_2024-06.zim
+    wget https://download.kiwix.org/zim/wiktionary/wiktionary_en_all_maxi_2024-05.zim
+
+    wget https://download.kiwix.org/zim/gutenberg/gutenberg_en_all_2023-08.zim
+
+This is not a super well curated collection of zim files, there is no over arcing princple involved beyond useful reference material. If SD card space is not a concern, the first change I would make is replace Simple English Wikipedia with the complete Wikipedia. Be warned though, the compllete Wikipedia is over 100 GB.
+
+5. Checkout other uConsole advise articles
 
 https://gist.github.com/selfawaresoup/b296f3b82167484a96e4502e74ed3602
 
