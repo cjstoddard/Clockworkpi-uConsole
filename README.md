@@ -25,6 +25,8 @@ Having an up to date system is paramount for any system, run these commands on a
     sudo apt update
     sudo apt upgrade
 
+If you run an upgrade and loose Wi-Fi after the system is rebooted, you can fix this by opening a terminal and running "sudo raspi-config", then going to Advanced Options > Network Config and selecting dhcpcd instead of Network Manager, then reboot. If you don’t see that option in raspi-config, update the tool by hitting update it will then showup. 
+
 3. Install useful programs
 
 The first set of programs are text mode programs that I find useful, the second set are GUI programs I use. Adjust according to taste.
