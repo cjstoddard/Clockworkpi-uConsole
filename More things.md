@@ -20,7 +20,7 @@ If you have done this or it was already done with no improvement, the next step 
 
 If the tape does not work for you, then you will probably need to get an external antenna. There are several ways to mount it. All of these methods are fiddly and most depend on you having access to a 3D printer. 
 
- I have uploaded the stl files various mounting methods, I did not create any of these stl's, I found all of them on Printable and Thingaverse. You can find more by searching uConsole on either site.
+I have uploaded the stl files various mounting methods, I did not create any of these stl's, I found all of them on Printable and Thingaverse. You can find more by searching uConsole on either site.
 
 2. 3D print a front cover
 
