@@ -60,7 +60,13 @@ Now we can populate kiwix, you can go check out what they have availble at https
 
 This is not a super well curated collection of zim files, there is no over arcing princple involved beyond useful reference material. If SD card space is not a concern, the first change I would make is replace Simple English Wikipedia with the complete Wikipedia. Be warned though, the compllete Wikipedia is over 100 GB.
 
-5. Checkout other uConsole advise articles
+5. Reduce wear and tear on your SD Card
+
+Along with being a lot slower, SD cards are not as resiliant hard drives, the number of writes you get on them is limited compared to even low cost SSD drives. One way to help reduce the number of writes to your SD cards is to write log files to a RAM drive. Below is a link to log2ram, which does exactly this. The downsides to this method is first it reduces the amount of RAM available to programs by 128 MB and if for some reason the uConsole looses power or crashes, log files may not be written to the SD card and finding out the problem will be more difficult without proper logs.
+
+https://github.com/azlux/log2ram
+
+6. Checkout other uConsole advise articles
 
 https://gist.github.com/selfawaresoup/b296f3b82167484a96e4502e74ed3602
 
