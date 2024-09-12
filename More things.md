@@ -58,7 +58,7 @@ Now we can populate kiwix, you can go check out what they have availble at https
 
     wget https://download.kiwix.org/zim/gutenberg/gutenberg_en_all_2023-08.zim
 
-This is not a super well curated collection of zim files, there is no over arcing princple involved beyond useful reference material. If SD card space is not a concern, the first change I would make is replace Simple English Wikipedia with the complete Wikipedia. Be warned though, the compllete Wikipedia is over 100 GB.
+This is not a super well curated collection of zim files, there is no over arcing princple involved beyond useful reference material. If SD card space is not a concern, the first change I would make is replace Simple English Wikipedia with the complete Wikipedia. Be warned though, the complete Wikipedia is over 100 GB.
 
 5. Move logging to a RAM disk
 
